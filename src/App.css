@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:ital@1&family=Roboto:ital,wght@1,500&display=swap');
+
+.tot{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    color: aliceblue;
+    left: -100%;
+    margin-left: 1%;
+    margin-top: 1%;
+    height: 100%;
+    -webkit-animation: slide 1s forwards;
+    -webkit-animation-delay: 0s;
+    animation: slide 1s forwards;
+    animation-delay: 0s;
+}
+
+@-webkit-keyframes slide{
+    100%{
+        left: 0;
+    }
+}
+
+@keyframes slide{
+    100%{
+        left: 0;
+    }
+}
+
+.input{
+    width: 100%;
+    padding: 0.5rem 0.2rem 0.5rem 0;
+    text-indent: 1rem;
+    font-size: 1rem;
+}
+
+.LinkShortener div{
+    display: flex;
+}
+
+.inputBtn{
+    padding: 0 1rem;
+    height: 3rem;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}
+
+
+.title{
+    font-family: 'REM', sans-serif;   
+    color: beige;
+    position: relative;
+    left: -100%;
+    margin-left: 1%;
+    margin-top: 1%;
+    height: 100%;
+    -webkit-animation: slide 1s forwards;
+    -webkit-animation-delay: 1.75s;
+    animation: slide 1s forwards;
+    animation-delay: 1.75s;
+}
+
+@-webkit-keyframes slide{
+    100%{
+        left: 0;
+    }
+}
+
+@keyframes slide{
+    100%{
+        left: 0;
+    }
+}
+
+.LinkShortener{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+}
+
+.result p{
+    background-color: white;
+    color: black;
+    border: 1px solid orange;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+}
+
+.result button{
+    padding: 0.5rm 1rem;
+    background-color: aqua;
+    cursor: pointer;
+    height: 38px;
+    font-weight: bold;
+}
+
+.result button.copied{
+    background-color: lightgreen;
+}
+
+.noData{
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+
+}
+
+@media( min-width: 200px ) { 
+
+    body, html {
+        height: 100%;
+        width: 100%;
+    }
+
+    body { 
+      background-image: url("./images/MobImg.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100%;
+      display: inline;
+       }
+
+    .tot{
+        font-size: 0px;
+    }
+
+    .title{
+        font-size: 1.35rem;
+    }
+}
+
+@media( max-width: 640px ){
+    .title{
+        font-family: 'REM', sans-serif;   
+        color: beige;
+        position: relative;
+        left: -100%;
+        margin-left: 1%;
+        margin-top: 1%;
+        height: 100%;
+        -webkit-animation: slide 1s forwards;
+        -webkit-animation-delay: 0s;
+        animation: slide 1s forwards;
+        animation-delay: 0s;
+    }
+    
+    @-webkit-keyframes slide{
+        100%{
+            left: 0;
+        }
+    }
+    
+    @keyframes slide{
+        100%{
+            left: 0;
+        }
+    }
+
+    .LinkShortener{
+        margin-top: 25vh;
+    }
+
+    .inputBtn{
+        height: 3rem;
+        font-size: 0.9rem;
+        background-color: yellow;
+    }
+
+    .result button{
+        background-color: yellow;
+    }
+
+    .result button.copied{
+        background-color: #ffb7c5;
+    }
+
+}
+
+@media( min-width: 640px ) {
+
+    body, html {
+        height: 100%;
+    }
+
+    body {
+      background-image: url("./images/DeskImg.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 100%;
+      display: inline;
+    }
+
+    .tot{
+        font-size: 1.85rem;
+    }
+
+    .title{
+        font-size: 1.35rem;
+    }
+
+    .LinkShortener{
+        margin-top: 15vh;
+    }
+
+
+}
+
+@media( min-width: 768px ) {
+
+    body, html {
+        height: 100%;
+    }
+
+    body {
+      background-image: url("./images/DeskImg.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 100%;
+      display: inline;
+    }
+
+    .tot{
+        font-size: 2rem;
+    }
+
+    .title{
+        font-size: 1.5rem;
+    }
+
+    .LinkShortener{
+        margin-top: 12vh;
+    }
+
+
+}
+
+@media( min-width: 820px ) {
+
+    body, html {
+        height: 100%;
+    }
+
+    body{
+    background-image: url("./images/DeskImg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    display: inline;
+     }
+
+     .tot{
+        font-size: 2.1rem;
+    }
+
+    .title{
+        font-size: 1.65rem;
+    }
+
+    .LinkShortener{
+        margin-top: 9vh;
+    }
+
+}
+
+@media( min-width: 940px ) {
+
+    body, html {
+        height: 100%;
+        width: 100%;
+    }
+
+    body{
+    background-image: url("./images/DeskImg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    display: inline;
+     }
+
+     .tot{
+        font-size: 2.25rem;
+    }
+
+    .title{
+        font-size: 1.85rem;
+    }
+
+    .LinkShortener{
+        margin-top: 10vh;
+    }
+
+    .input{
+        width: 300px;
+    }
+
+}
+
+@media( min-width: 1024px ) {
+
+    body, html {
+        height: 100%;
+        width: 100%;
+    }
+
+    body {
+      background-image: url("images/DeskImg.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100%;
+      display: inline;
+    }
+
+    .tot{
+        font-size: 2.5rem;
+    }
+
+    .title{
+        font-size: 2rem;
+    }
+
+    .LinkShortener{
+        margin-top: 8vh;
+    }
+
+}
